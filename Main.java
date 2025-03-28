@@ -14,13 +14,13 @@ public class Main {
         // Measure execution time
         long startTime = System.nanoTime();
 
-        if (task == 1) {
+        if (task == 1) { // Find the minimum element in an array
             System.out.print("Enter the number of elements: ");
             int n = scanner.nextInt();
             int[] arr = new int[n];
             for (int i = 0; i < n; i++) arr[i] = scanner.nextInt();
             System.out.println("Minimum: " + findMin(arr, n));
-        } else if (task == 2) {
+        } else if (task == 2) { // Calculate the average of an array
             System.out.print("Enter the number of elements: ");
             int n = scanner.nextInt();
             int[] arr = new int[n];
